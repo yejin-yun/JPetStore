@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 import com.example.jpetstore.domain.Account;
 
-// test
 /**
  * @author Juergen Hoeller
  * @since 01.12.2003

@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import com.example.jpetstore.domain.Account;
 
-//�ҽð�
+//소시개
 /**
  * @author Juergen Hoeller
  * @since 01.12.2003

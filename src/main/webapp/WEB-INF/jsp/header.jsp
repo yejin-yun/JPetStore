@@ -25,13 +25,13 @@
                 <input type="text" name="searchKey" class="keyword" placeholder="상품명을 검색하세요" style="width:100%; height: 100%; border:0; background:#f3f3f3 " >
             </form>
         </div>
-        <div class="wrapper">
+        <div class="wrapper" style="z-index:1000;">
         <h1 id="logo"><a href="<c:url value='/main' />" title="Home"><img src="<c:url value='../images/bagic/lavra_logo.PNG' />" alt="lavra" ></a></h1>
         <nav>
             <h2><strong>
-            <ul class="main_menu">
+            <ul class="main_menu"> <!-- style="postion:relative;" -->
                 <li id="work"><a>악세사리</a>
-                    <ul class="work_sub_menu sub_menu">
+                    <ul class="work_sub_menu sub_menu" style="z-index:1000; position:absolute;">
                         <li><a href="<c:url value='' />">귀걸이</a></li> 
                         <li><a href="<c:url value='' />">목걸이</a></li>
                         <li><a href="<c:url value='' />">반지</a></li>

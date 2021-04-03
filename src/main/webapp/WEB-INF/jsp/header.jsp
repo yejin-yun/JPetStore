@@ -1,12 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" %> 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %> 
 <% request.setCharacterEncoding("UTF-8"); %>
 
 <!DOCTYPE html>
 <html>
 <head>
 
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <meta http-equiv="Cache-Control" content="max-age=0">
+	 <meta http-equiv="Cache-Control" content="no-cache">
+	 <meta http-equiv="expires" content="0">
+	 <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+	 <meta http-equiv="Pragma" content="no-cache">
      <!--JQuery -->
     <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
     <script src="<c:url value='../js/base.js' />" ></script>

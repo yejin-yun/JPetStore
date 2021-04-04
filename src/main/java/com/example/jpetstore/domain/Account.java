@@ -2,7 +2,7 @@ package com.example.jpetstore.domain;
 
 import java.io.Serializable;
 
-
+//push test test
 @SuppressWarnings("serial")
 public class Account implements Serializable {
 

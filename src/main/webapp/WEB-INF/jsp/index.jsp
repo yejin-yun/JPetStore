@@ -1,4 +1,4 @@
-<%@ include file="IncludeTop.jsp" %>
+<%@ include file="header.jsp" %>
 
 <table style="border:none;border-collapse:collapse;width:100%">
   <tr>
